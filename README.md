@@ -94,6 +94,8 @@ Jenkins Installation is Successful. You can now starting using the Jenkins
 
 ## Install the Docker Pipeline plugin in Jenkins:
 
+##after the completion of last step we have to do this and restart once the plugin got installed ##
+
    - Log in to Jenkins.
    - Go to Manage Jenkins > Manage Plugins.
    - In the Available tab, search for "Docker Pipeline".
@@ -133,6 +135,8 @@ then try to run docker run hello-world
 Once you are done with the above steps, it is better to restart Jenkins.
 
 ```
+
+## sometimes changes might not got reflected so we have to restart##
 http://<ec2-instance-public-ip>:8080/restart
 ```
 
