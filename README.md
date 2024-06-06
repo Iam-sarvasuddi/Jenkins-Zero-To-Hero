@@ -124,6 +124,10 @@ systemctl restart docker
 ```
 ```
 su - jenkins    #by default it creats a jenkins user to switch to that we have to use this cmd
+docker run hello-world --run this if we are getting any permisions issue switch back to usermod -aG docker jenkins by logout from jenkins user
+in root user execute usermod -aG docker jenkins
+then try to run docker run hello-world
+
 ```
 
 Once you are done with the above steps, it is better to restart Jenkins.
