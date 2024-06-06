@@ -122,8 +122,9 @@ usermod -aG docker jenkins
 usermod -aG docker ubuntu
 systemctl restart docker
 ```
-
+```
 su - jenkins    #by default it creats a jenkins user to switch to that we have to use this cmd
+```
 
 Once you are done with the above steps, it is better to restart Jenkins.
 
